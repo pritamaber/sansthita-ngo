@@ -71,8 +71,12 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="text-center text-sm text-gray-500 mt-10 border-t border-gray-700 pt-6">
-        © {new Date().getFullYear()} Sansthita. All rights reserved.
+      <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
+        © 2026 Sansthita
+        <br />
+        A voice for the voiceless
+        <br />
+        Registration No. S/1L/31619
       </div>
     </footer>
   );

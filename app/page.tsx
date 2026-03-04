@@ -4,7 +4,7 @@ import SectionTitle from "@/components/SectionTitle";
 import ImpactSection from "@/components/ImpactSection";
 import StoryCard from "@/components/StoryCard";
 import SupportSection from "@/components/SupportSection";
-
+import CallToAction from "@/components/CallToAction";
 /*
   Homepage Component
   -------------------
@@ -34,6 +34,9 @@ export default function HomePage() {
           vulnerable communities. Through education programs, community outreach
           and social initiatives we strive to build a safer and more
           compassionate society.
+        </p>
+        <p className="text-gray-500 text-center mt-4">
+          Registration No. S/1L/31619
         </p>
       </section>
 
@@ -266,6 +269,8 @@ export default function HomePage() {
           quickly understand the scale of the NGO's work.
         */}
       <ImpactSection />
+      {/* ================= CALLTOACTION SECTION ================= */}
+      <CallToAction />
       {/* ================= SUPPORT SECTION ================= */}
       {/*
           This section provides visitors with essential contact
