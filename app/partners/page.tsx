@@ -29,8 +29,13 @@ export default function PartnersPage() {
     {
       name: "Government Representatives",
       image: null,
-      description:
-        "We sincerely acknowledge the guidance and support of Government Representative Shri Sujit Basu and respected Councilor Smt. Suchayita Das.",
+      description: (
+        <>
+          We sincerely acknowledge the guidance and support of Government
+          Representative <strong>Shri Sujit Basu</strong> and respected
+          Councilor <strong>Smt Suchayita Das</strong>.
+        </>
+      ),
     },
   ];
 

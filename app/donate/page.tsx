@@ -16,15 +16,54 @@ export default function DonatePage() {
         />
 
         {/* Donation Intro */}
+        {/* Donation Intro */}
         <p className="text-gray-700 text-center max-w-3xl mx-auto mt-8 leading-relaxed">
-          At Sansthita [Registration No. S/1L/31619 ], we believe that small
-          contributions can create meaningful change. Your support helps us
-          continue our initiatives including women protection programs,
-          educational assistance for children, community outreach and emergency
-          support for those in need.
+          At Sansthita [Registration No. S/1L/31619], we believe small
+          contributions can create big change. Your donation helps us fight
+          violence against women, provide assistance to survivors and promote
+          awareness. It also supports underprivileged communities through
+          education, healthcare and social development initiatives.
+        </p>
+
+        <p className="text-gray-700 text-center max-w-3xl mx-auto mt-4 leading-relaxed">
+          We ensure transparency and responsible use of every donation received.
+          Be the reason someone finds hope again.
         </p>
 
         {/* ================= DONATION OPTIONS ================= */}
+        {/* Suggested Donations */}
+
+        <div className="mt-12 text-center">
+          <h3 className="text-xl font-semibold text-black mb-6">
+            Suggested Contribution
+          </h3>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto">
+            <div className="bg-blue-50 border border-blue-100 rounded-lg p-4">
+              <p className="font-semibold text-lg text-black">₹500</p>
+              <p className="text-sm text-gray-600">
+                Support awareness programs
+              </p>
+            </div>
+
+            <div className="bg-blue-50 border border-blue-100 rounded-lg p-4">
+              <p className="font-semibold text-lg text-black">₹1000</p>
+              <p className="text-sm text-gray-600">
+                Help a child with education
+              </p>
+            </div>
+
+            <div className="bg-blue-50 border border-blue-100 rounded-lg p-4">
+              <p className="font-semibold text-lg text-black">₹2500</p>
+              <p className="text-sm text-gray-600">Support women protection</p>
+            </div>
+
+            <div className="bg-blue-50 border border-blue-100 rounded-lg p-4">
+              <p className="font-semibold text-lg text-black">₹5000</p>
+              <p className="text-sm text-gray-600">Sponsor outreach programs</p>
+            </div>
+          </div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
           {/* ================= QR CODE DONATION ================= */}

@@ -18,7 +18,7 @@ export default function ImpactSection() {
       label: "Community Programs",
     },
     {
-      number: "10+",
+      number: "21+",
       label: "Years of Service",
     },
   ];

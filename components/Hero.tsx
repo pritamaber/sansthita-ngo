@@ -13,9 +13,9 @@ export default function Hero() {
 
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
-            Standing Against Violence
+            Supporting Vulnerable Women
             <br />
-            Empowering Women & Communities
+            and Children with Care and Opportunity
           </h1>
 
           <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-8">

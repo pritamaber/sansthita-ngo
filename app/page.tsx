@@ -181,53 +181,98 @@ export default function HomePage() {
           />
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-12">
-            <Image
-              src="/images/children/Children draw compet 14.jpg"
-              alt="Children drawing competition"
-              width={500}
-              height={300}
-              className="rounded-lg object-cover w-full h-48"
-            />
+            {/* Drawing Competition */}
 
-            <Image
-              src="/images/children/Children play 01.jpg"
-              alt="Children activities"
-              width={500}
-              height={300}
-              className="rounded-lg object-cover w-full h-48"
-            />
+            <div>
+              <Image
+                src="/images/children/Children draw compet 14.jpg"
+                alt="Children drawing competition"
+                width={500}
+                height={300}
+                className="rounded-lg object-cover w-full h-48"
+              />
+              <p className="text-sm text-gray-600 mt-2 text-center">
+                Children participating in a drawing competition organized by
+                Sansthita.
+              </p>
+            </div>
 
-            <Image
-              src="/images/relief/Covid 05.jpg"
-              alt="Relief support"
-              width={500}
-              height={300}
-              className="rounded-lg object-cover w-full h-48"
-            />
+            {/* Children Activities */}
 
-            <Image
-              src="/images/events/Holi 02.jpg"
-              alt="Holi celebration"
-              width={500}
-              height={300}
-              className="rounded-lg object-cover w-full h-48"
-            />
+            <div>
+              <Image
+                src="/images/children/Children play 01.jpg"
+                alt="Children activities"
+                width={500}
+                height={300}
+                className="rounded-lg object-cover w-full h-48"
+              />
+              <p className="text-sm text-gray-600 mt-2 text-center">
+                Children enjoying fun and learning activities organized by
+                Sansthita.
+              </p>
+            </div>
 
-            <Image
-              src="/images/events/Independence day.jpeg"
-              alt="Independence Day"
-              width={500}
-              height={300}
-              className="rounded-lg object-cover w-full h-48"
-            />
+            {/* Covid Relief */}
 
-            <Image
-              src="/images/all/Tree plant event.jpeg"
-              alt="Tree plantation drive"
-              width={500}
-              height={300}
-              className="rounded-lg object-cover w-full h-48"
-            />
+            <div>
+              <Image
+                src="/images/relief/Covid 05.jpg"
+                alt="Relief support"
+                width={500}
+                height={300}
+                className="rounded-lg object-cover w-full h-48"
+              />
+              <p className="text-sm text-gray-600 mt-2 text-center">
+                Sansthita distributing relief support during the COVID pandemic.
+              </p>
+            </div>
+
+            {/* Holi Celebration */}
+
+            <div>
+              <Image
+                src="/images/events/Holi 02.jpg"
+                alt="Holi celebration"
+                width={500}
+                height={300}
+                className="rounded-lg object-cover w-full h-48"
+              />
+              <p className="text-sm text-gray-600 mt-2 text-center">
+                Children celebrating Holi together with joy and unity.
+              </p>
+            </div>
+
+            {/* Independence Day */}
+
+            <div>
+              <Image
+                src="/images/events/Independence day.jpeg"
+                alt="Independence Day"
+                width={500}
+                height={300}
+                className="rounded-lg object-cover w-full h-48"
+              />
+              <p className="text-sm text-gray-600 mt-2 text-center">
+                Independence Day celebration with community members and
+                children.
+              </p>
+            </div>
+
+            {/* Tree Plantation */}
+
+            <div>
+              <Image
+                src="/images/all/Tree plant event.jpeg"
+                alt="Tree plantation drive"
+                width={500}
+                height={300}
+                className="rounded-lg object-cover w-full h-48"
+              />
+              <p className="text-sm text-gray-600 mt-2 text-center">
+                Tree plantation drive promoting environmental awareness.
+              </p>
+            </div>
           </div>
 
           {/* Gallery Button */}
