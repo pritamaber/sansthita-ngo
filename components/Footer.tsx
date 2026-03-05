@@ -62,7 +62,7 @@ export default function Footer() {
 
             {/* Email */}
             <a
-              href="mailto:sansthita2025.kalindi@gmail.com"
+              href="mailto:sansthita2005.kalindi@gmail.com"
               className="hover:text-white"
               aria-label="Email"
             >
@@ -152,10 +152,10 @@ export default function Footer() {
 
           <p className="text-sm">
             <a
-              href="mailto:sansthita2025.kalindi@gmail.com"
+              href="mailto:sansthita2005.kalindi@gmail.com"
               className="hover:underline"
             >
-              sansthita2025.kalindi@gmail.com
+              sansthita2005.kalindi@gmail.com
             </a>
           </p>
         </div>

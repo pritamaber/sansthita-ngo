@@ -87,10 +87,10 @@ export default function SupportSection() {
 
             <p className="mt-2 text-gray-600">
               <a
-                href="mailto:sansthita2025.kalindi@gmail.com"
+                href="mailto:sansthita2005.kalindi@gmail.com"
                 className="hover:underline"
               >
-                sansthita2025.kalindi@gmail.com
+                sansthita2005.kalindi@gmail.com
               </a>
             </p>
           </div>

@@ -39,7 +39,7 @@ export default function ContactPage() {
           <div>
             <h2 className="text-2xl font-semibold mb-4 text-black">Email</h2>
 
-            <p className="text-gray-700">sansthita2025.kalindi@gmail.com</p>
+            <p className="text-gray-700">sansthita2005.kalindi@gmail.com</p>
           </div>
         </div>
 
