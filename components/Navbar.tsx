@@ -60,6 +60,9 @@ export default function Navbar() {
           <Link href="/about" className="hover:text-blue-900 transition">
             About
           </Link>
+          <Link href="/works" className="hover:text-blue-900 transition">
+            Works
+          </Link>
           <Link href="/events" className="hover:text-blue-900 transition">
             Events
           </Link>
@@ -107,7 +110,10 @@ export default function Navbar() {
             <Link href="/about" onClick={closeMenu}>
               About
             </Link>
-            <Link href="/events" className="hover:text-blue-900 transition">
+            <Link href="/works" onClick={closeMenu}>
+              Works
+            </Link>
+            <Link href="/events" onClick={closeMenu}>
               Events
             </Link>
 
