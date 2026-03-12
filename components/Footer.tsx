@@ -172,28 +172,32 @@ export default function Footer() {
       </div>
       {/* ================= DEVELOPER CONTACT ================= */}
 
+      {/* ================= DEVELOPER CONTACT ================= */}
+
       <div className="border-t border-white/10 text-center text-sm text-gray-400 py-6">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4">
-          <span>Designed and developed by Pritam Das</span>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-5">
+          <span className="text-gray-500">
+            Designed and developed by Pritam Das
+          </span>
 
           <a
-            href="https://impritam.com"
+            href="https://rebadigitalsolutions.com"
             className="text-blue-400 hover:text-blue-300 transition"
             target="_blank"
             rel="noopener noreferrer"
           >
-            impritam.com
+            rebadigitalsolutions.com
           </a>
 
           <a
-            href="mailto:pritam.aber@gmail.com"
+            href="mailto:pritam.aber@gmail.com?subject=Website%20Development%20Inquiry&body=Hello%20Pritam,%20I%20visited%20rebadigitalsolutions.com%20and%20would%20like%20to%20discuss%20a%20website%20project."
             className="text-blue-400 hover:text-blue-300 transition"
           >
-            pritam.aber@gmail.com
+            rebadigitalsolutions@gmail.com
           </a>
 
           <a
-            href="https://wa.me/916291616198"
+            href="https://wa.me/916291616198?text=Hello%20Pritam,%20I%20visited%20rebadigitalsolutions.com%20and%20would%20like%20to%20discuss%20a%20website%20project."
             className="text-green-400 hover:text-green-300 transition"
             target="_blank"
             rel="noopener noreferrer"
