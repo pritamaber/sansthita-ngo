@@ -92,7 +92,7 @@ export default function DonatePage() {
                 Scan to Donate
               </h3>
 
-              <div className="flex justify-center bg-blue-50">
+              <div className="flex justify-center bg-blue-50 relative w-fit mx-auto">
                 <Image
                   src="/images/all/Payment QR.jpg"
                   alt="Donation QR Code"
@@ -100,6 +100,13 @@ export default function DonatePage() {
                   height={250}
                   className="rounded-md"
                 />
+
+                {/* Banner Overlay */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="bg-black/70 text-white text-sm font-semibold px-4 py-2 rounded">
+                    Dummy QR — Original Coming Soon
+                  </div>
+                </div>
               </div>
 
               <p className="text-gray-600 text-sm mt-4 bg-blue-50 border border-blue-100">
