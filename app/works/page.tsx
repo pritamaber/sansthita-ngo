@@ -69,7 +69,7 @@ export default function WorksPage() {
       image: "/images/works/Bag distribution to children.jpeg",
       alt: "School bag distribution",
       caption:
-        "School bags distributed to children by Mr. Shaw, Branch Manager of SBI Kalindi Branch.",
+        "School bags distributed to children by Mr. Brij Kishore Shaw, Branch Manager of SBI Kalindi Branch.",
     },
 
     {
