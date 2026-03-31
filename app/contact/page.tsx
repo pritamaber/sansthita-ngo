@@ -54,6 +54,7 @@ export default function ContactPage() {
             </h2>
 
             <ul className="text-gray-700 space-y-2">
+              <li>+91 70030 36536</li>
               <li>+91 99035 07605</li>
               <li>+91 78748 19964</li>
             </ul>
@@ -67,10 +68,10 @@ export default function ContactPage() {
             </h2>
 
             <ul className="text-gray-700 space-y-2">
+              <li>+91 70030 36536</li>
               <li>+91 94330 28584</li>
               <li>+91 90518 57055</li>
               <li>+91 90511 71996</li>
-              <li>+91 70030 36536</li>
             </ul>
           </div>
 
