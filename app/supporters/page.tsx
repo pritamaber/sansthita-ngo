@@ -29,6 +29,15 @@ export default function SupportersPage() {
       image: "/images/all/Legal.jpeg",
     },
     { name: "Ms Chitra Ray", image: "/images/all/Chitra.jpeg" },
+
+    {
+      name: "Mr. Swapan Kumar Mukherjee & Mrs. Geeta Mukherjee",
+      image: "/images/all/geeta_swapan_mukherjee.jpeg",
+    },
+    {
+      name: "Mr. Satarup Bhattacherjee & Mr. Ayan Bhattacherjee",
+      image: "/images/all/satarup_ayan_bhattacharjee.jpeg",
+    },
   ];
 
   return (
@@ -43,6 +52,33 @@ export default function SupportersPage() {
           Sansthita continue its mission of service and compassion.
         </p>
       </section>
+      {/* ================= SPECIAL MENTION ================= */}
+
+      <div className="mt-12 bg-blue-50 border border-blue-200 rounded-xl p-6 md:p-8 text-center max-w-4xl mx-auto shadow-sm">
+        <h3 className="text-2xl font-semibold text-blue-900 mb-4">
+          Special Gratitude
+        </h3>
+        <div className="relative w-full max-w-md mx-auto h-72 md:h-96 mb-6">
+          <Image
+            src="/images/all/sudipta_chaterjee.jpeg"
+            alt="Dr. Sudipta Chatterjee"
+            fill
+            className="object-contain rounded-md"
+          />
+        </div>
+
+        <p className="text-gray-700 leading-relaxed">
+          Dr. Sudipta Chatterjee has been a constant source of motivation for
+          Sansthita. His encouragement and vision have guided us to grow and
+          move forward with confidence.
+        </p>
+
+        <p className="text-gray-700 leading-relaxed mt-3">
+          This website stands as a reflection of his thoughtful advice and
+          support. We remain deeply grateful for his kindness and the
+          inspiration he continues to share.
+        </p>
+      </div>
 
       {/* ================= SUPPORTERS CONTENT ================= */}
 

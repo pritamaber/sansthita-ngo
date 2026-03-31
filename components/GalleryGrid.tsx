@@ -76,6 +76,14 @@ export default function GalleryGrid() {
     "Womes day celeb 04.jpg",
     "Womes day celeb 05.jpg",
     "Group-Gathering.jpeg",
+
+    // Newly added images
+    "president_flower_sujit_basu.jpeg",
+    "young_girl_helping.jpg",
+    "santosh_cheque.jpg",
+    "member_green_earth1.jpg",
+    "member_green_earth2.jpg",
+    "late_founder.jpg",
   ];
 
   const getCaption = (name: string): string => {
@@ -100,6 +108,19 @@ export default function GalleryGrid() {
       return "Support for Domestic Violence Survivor";
     if (name.includes("Independence")) return "Independence Day Celebration";
     if (name.includes("Sansthita office")) return "Sansthita Members Meeting";
+    if (name.includes("president_flower_sujit_basu"))
+      return "Our President presenting a flower bouquet to our respected Mr. Sujit Basu, Government representative";
+    if (name.includes("young_girl_helping"))
+      return "Two compassionate young minds extended their hands to support those in need";
+    if (name.includes("santosh_cheque"))
+      return "Mr. Santosh Kumar Mitra presenting a cheque to someone in need";
+    if (
+      name.includes("member_green_earth1") ||
+      name.includes("member_green_earth2")
+    )
+      return "Members take part in the Green Earth Movement drive";
+    if (name.includes("late_founder"))
+      return "We pay homage to our founder Late Santosh Kumar Mitra";
 
     return "Sansthita Community Activity";
   };
@@ -112,7 +133,6 @@ export default function GalleryGrid() {
   return (
     <div>
       {/* GALLERY GRID */}
-
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {images.map((name, i) => (
           <div
@@ -134,7 +154,6 @@ export default function GalleryGrid() {
       </div>
 
       {/* LIGHTBOX */}
-
       <Lightbox
         open={index >= 0}
         index={index}

@@ -112,6 +112,35 @@ export default function WorksPage() {
       caption:
         "Cloth bags distributed among community members to encourage environmentally friendly alternatives to plastic.",
     },
+    // ✅ Added new works
+    {
+      image: "/images/all/president_flower_sujit_basu.jpeg",
+      alt: "President honoring government representative",
+      caption:
+        "Our President presenting a flower bouquet to our respected Mr. Sujit Basu, Government representative.",
+    },
+    {
+      image: "/images/all/young_girl_helping.jpg",
+      alt: "Helping those in need",
+      caption:
+        "Two compassionate young minds extended their hands to support those in need.",
+    },
+    {
+      image: "/images/all/santosh_cheque.jpg",
+      alt: "Cheque donation support",
+      caption:
+        "Mr. Santosh Kumar Mitra presenting a cheque to someone in need.",
+    },
+    {
+      image: "/images/all/member_green_earth1.jpg",
+      alt: "Green Earth Movement",
+      caption: "Members take part in the Green Earth Movement drive.",
+    },
+    {
+      image: "/images/all/member_green_earth2.jpg",
+      alt: "Green Earth Movement",
+      caption: "Members take part in the Green Earth Movement drive.",
+    },
   ];
 
   return (

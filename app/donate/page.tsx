@@ -94,19 +94,12 @@ export default function DonatePage() {
 
               <div className="flex justify-center bg-blue-50 relative w-fit mx-auto">
                 <Image
-                  src="/images/all/Payment QR.jpg"
+                  src="/images/all/pay_qr_code.jpeg"
                   alt="Donation QR Code"
                   width={250}
                   height={250}
                   className="rounded-md"
                 />
-
-                {/* Banner Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-black/70 text-white text-sm font-semibold px-4 py-2 rounded">
-                    Dummy QR — Original Coming Soon
-                  </div>
-                </div>
               </div>
 
               <p className="text-gray-600 text-sm mt-4 bg-blue-50 border border-blue-100">
@@ -127,19 +120,19 @@ export default function DonatePage() {
                 </p>
 
                 <p>
-                  <strong>Branch:</strong> Kalindi Branch
+                  <strong>Branch:</strong> KALINDI HOUSING ESTATE(KOLKATA)
                 </p>
 
                 <p>
-                  <strong>Account Name:</strong> Sansthita
+                  <strong>Account Name:</strong> SANSTHITA
                 </p>
 
                 <p>
-                  <strong>Account Number:</strong> XXXXXXXX
+                  <strong>Account Number:</strong> 34934310544
                 </p>
 
                 <p>
-                  <strong>IFSC Code:</strong> SBINXXXXXXXX
+                  <strong>IFSC Code:</strong> SBIN0007961
                 </p>
 
                 <p className="pt-4">
