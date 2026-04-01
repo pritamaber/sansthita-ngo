@@ -35,7 +35,7 @@ export default function SupportersPage() {
       image: "/images/all/geeta_swapan_mukherjee.jpeg",
     },
     {
-      name: "Mr. Satarup Bhattacherjee & Mr. Ayan Bhattacherjee",
+      name: "Mrs. Satarupa Bhattacherjee & Mr. Ayan Bhattacherjee",
       image: "/images/all/satarup_ayan_bhattacharjee.jpeg",
     },
   ];
