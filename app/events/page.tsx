@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "@/components/SectionTitle";
+import Reveal from "@/components/Reveal";
 
 export default function EventsPage() {
   return (
@@ -26,7 +27,7 @@ export default function EventsPage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {/* Beautician Course */}
 
-          <div className="bg-white rounded-lg shadow-md p-6">
+          <Reveal delay={0} className="bg-white rounded-lg shadow-md p-6">
             <h3 className="font-semibold text-lg mb-2 text-black">
               Skill Development – Beautician Course
             </h3>
@@ -36,11 +37,11 @@ export default function EventsPage() {
               and create opportunities for self-employment and financial
               independence.
             </p>
-          </div>
+          </Reveal>
 
           {/* Tailoring Training */}
 
-          <div className="bg-white rounded-lg shadow-md p-6">
+          <Reveal delay={80} className="bg-white rounded-lg shadow-md p-6">
             <h3 className="font-semibold text-lg mb-2 text-black">
               Skill Development – Tailoring Training
             </h3>
@@ -50,11 +51,11 @@ export default function EventsPage() {
               with practical skills that can help them generate income and
               support their families.
             </p>
-          </div>
+          </Reveal>
 
           {/* Performing Arts */}
 
-          <div className="bg-white rounded-lg shadow-md p-6">
+          <Reveal delay={160} className="bg-white rounded-lg shadow-md p-6">
             <h3 className="font-semibold text-lg mb-2 text-black">
               Art & Cultural Activities – Performing Arts Classes
             </h3>
@@ -64,11 +65,11 @@ export default function EventsPage() {
               creativity, confidence and artistic expression among children and
               youth.
             </p>
-          </div>
+          </Reveal>
 
           {/* Civic Awareness */}
 
-          <div className="bg-white rounded-lg shadow-md p-6">
+          <Reveal delay={240} className="bg-white rounded-lg shadow-md p-6">
             <h3 className="font-semibold text-lg mb-2 text-black">
               Student Development – Civic Awareness Program
             </h3>
@@ -77,10 +78,10 @@ export default function EventsPage() {
               Educational sessions helping students understand their rights,
               duties and responsibilities as responsible citizens of society.
             </p>
-          </div>
+          </Reveal>
 
           {/* {Weekly Drawing Classes} */}
-          <div className="bg-white rounded-lg shadow-md p-6">
+          <Reveal delay={320} className="bg-white rounded-lg shadow-md p-6">
             <h3 className="font-semibold text-lg mb-2 text-black">
               Weekly Drawing Classes
             </h3>
@@ -90,7 +91,7 @@ export default function EventsPage() {
               creativity, build confidence and encourage positive learning
               through art and cultural expression.
             </p>
-          </div>
+          </Reveal>
         </div>
       </section>
 
@@ -106,7 +107,10 @@ export default function EventsPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             {/* Tree Plantation */}
 
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <Reveal
+              delay={0}
+              className="bg-white rounded-lg shadow-md overflow-hidden"
+            >
               <Image
                 src="/images/all/Tree plant event.jpeg"
                 alt="Tree Plantation Drive"
@@ -125,11 +129,14 @@ export default function EventsPage() {
                   encouraging green living.
                 </p>
               </div>
-            </div>
+            </Reveal>
 
             {/* Women Empowerment */}
 
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <Reveal
+              delay={80}
+              className="bg-white rounded-lg shadow-md overflow-hidden"
+            >
               <Image
                 src="/images/all/Womes day celeb 02.jpg"
                 alt="Women empowerment workshop"
@@ -148,11 +155,14 @@ export default function EventsPage() {
                   legal rights and opportunities.
                 </p>
               </div>
-            </div>
+            </Reveal>
 
             {/* Holi */}
 
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <Reveal
+              delay={160}
+              className="bg-white rounded-lg shadow-md overflow-hidden"
+            >
               <Image
                 src="/images/all/Holi 02.jpg"
                 alt="Holi celebration"
@@ -171,11 +181,14 @@ export default function EventsPage() {
                   and children.
                 </p>
               </div>
-            </div>
+            </Reveal>
 
             {/* Independence Day */}
 
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <Reveal
+              delay={240}
+              className="bg-white rounded-lg shadow-md overflow-hidden"
+            >
               <Image
                 src="/images/all/Independence day.jpeg"
                 alt="Independence day celebration"
@@ -194,30 +207,8 @@ export default function EventsPage() {
                   children's activities.
                 </p>
               </div>
-            </div>
+            </Reveal>
 
-            {/* Children Drawing */}
-
-            {/* <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <Image
-                src="/images/all/Children draw compet 05.jpg"
-                alt="Children drawing competition"
-                width={400}
-                height={250}
-                className="w-full h-48 object-cover"
-              />
-
-              <div className="p-6">
-                <h3 className="font-semibold text-lg mb-2 text-black">
-                  Children's Drawing Competition
-                </h3>
-
-                <p className="text-gray-600 text-sm">
-                  Creative activities encouraging children to express their
-                  ideas through art.
-                </p>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>

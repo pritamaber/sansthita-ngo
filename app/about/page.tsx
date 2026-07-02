@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Reveal from "@/components/Reveal";
 
 export default function AboutPage() {
   return (
@@ -23,7 +24,7 @@ export default function AboutPage() {
       {/* ================= WHO WE ARE ================= */}
 
       <section className="py-20">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <Reveal className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-72 w-full">
             <Image
               src="/images/all/Womes day celeb 02.jpg"
@@ -53,12 +54,12 @@ export default function AboutPage() {
               every woman can rebuild her life with respect and independence.
             </p>
           </div>
-        </div>
+        </Reveal>
       </section>
       {/* ================= HOW SANSTHITA BEGAN ================= */}
 
       <section className="bg-gray-50 py-20">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <Reveal className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           {/* Text */}
 
           <div>
@@ -118,13 +119,13 @@ export default function AboutPage() {
               className="object-cover rounded-lg shadow-lg"
             />
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* ================= WHAT MAKES US DIFFERENT ================= */}
 
       <section className="bg-gray-50 py-20">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <Reveal className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold mb-6 text-black">
               What Makes Sansthita Different
@@ -156,13 +157,13 @@ export default function AboutPage() {
               className="object-cover rounded-lg shadow-lg"
             />
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* ================= OUR JOURNEY ================= */}
 
       <section className="py-20">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <Reveal className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-72 w-full">
             <Image
               src="/images/all/Sansthita office and members 01.jpg"
@@ -194,13 +195,13 @@ export default function AboutPage() {
               place from where we can serve society more effectively.
             </p>
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* ================= OUR MISSION ================= */}
 
       <section className="bg-gray-50 py-20">
-        <div className="max-w-5xl mx-auto px-6 text-center">
+        <Reveal className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-6 text-black">Our Mission</h2>
 
           <p className="text-gray-700 leading-relaxed">
@@ -210,13 +211,13 @@ export default function AboutPage() {
             we aim to build a society where justice, dignity and compassion
             prevail.
           </p>
-        </div>
+        </Reveal>
       </section>
 
       {/* ================= OUR VISION ================= */}
 
       <section className="py-20">
-        <div className="max-w-5xl mx-auto px-6 text-center">
+        <Reveal className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-6 text-black">Our Vision</h2>
 
           <p className="text-gray-700 leading-relaxed">
@@ -224,12 +225,12 @@ export default function AboutPage() {
             where communities stand together against injustice and where every
             individual is treated with dignity, safety and respect.
           </p>
-        </div>
+        </Reveal>
       </section>
       {/* ================= VIEW OUR WORK ================= */}
 
       <section className="bg-gray-50 py-16 text-center">
-        <div className="max-w-4xl mx-auto px-6">
+        <Reveal className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-4 text-black">
             See Our Work in Action
           </h2>
@@ -247,7 +248,7 @@ export default function AboutPage() {
           >
             View Our Works
           </a>
-        </div>
+        </Reveal>
       </section>
     </main>
   );

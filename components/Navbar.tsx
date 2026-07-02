@@ -41,6 +41,9 @@ export default function Navbar() {
             <span className="text-[10px] text-gray-400">
               Reg. No. S/1L/31619
             </span>
+            <span className="text-[10px] text-gray-400">
+              Darpan ID: WB/2026/1120693
+            </span>
           </div>
         </Link>
 

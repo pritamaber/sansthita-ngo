@@ -1,5 +1,5 @@
 import SectionTitle from "@/components/SectionTitle";
-import GalleryGrid from "@/components/GalleryGrid";
+import GalleryTabs from "@/components/GalleryTabs";
 
 export default function GalleryPage() {
   return (
@@ -25,7 +25,7 @@ export default function GalleryPage() {
           />
 
           <div className="mt-12">
-            <GalleryGrid />
+            <GalleryTabs />
           </div>
         </div>
       </section>

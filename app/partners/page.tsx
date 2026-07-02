@@ -1,33 +1,9 @@
 import Image from "next/image";
 import SectionTitle from "@/components/SectionTitle";
+import Reveal from "@/components/Reveal";
+import { partners } from "@/data/partners";
 
 export default function PartnersPage() {
-  /*
-    Institutional partners supporting Sansthita.
-    Each partner can include a logo and description.
-  */
-
-  const partners = [
-    {
-      name: "Rotary Club",
-      image: "/images/all/Rotary club.jpg",
-      description:
-        "Sansthita has been able to create meaningful change through the generous support and collaboration of the Rotary Club.",
-    },
-    {
-      name: "State Bank of India – Kalindi Branch",
-      image: "/images/all/Sbi kalindi.jpg",
-      description:
-        "We are grateful to the State Bank of India, Kalindi Branch, for their cooperation and encouragement towards our social initiatives.",
-    },
-    {
-      name: "Apollo Hospital",
-      image: "/images/all/Apollo hospital.jpg",
-      description:
-        "Apollo Hospital has supported Sansthita in organizing health awareness programs and medical initiatives for the community.",
-    },
-  ];
-
   return (
     <main className="bg-white">
       {/* ================= PAGE HEADER ================= */}
@@ -54,8 +30,9 @@ export default function PartnersPage() {
 
           <div className="mt-12 space-y-10">
             {partners.map((partner, index) => (
-              <div
+              <Reveal
                 key={index}
+                delay={index * 100}
                 className="flex flex-col md:flex-row items-start gap-6 p-6 border rounded-lg shadow-sm"
               >
                 {/* Partner Logo */}
@@ -81,7 +58,7 @@ export default function PartnersPage() {
                     {partner.description}
                   </p>
                 </div>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>

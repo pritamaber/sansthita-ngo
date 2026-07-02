@@ -1,3 +1,5 @@
+import Reveal from "@/components/Reveal";
+
 export default function ContactPage() {
   return (
     <main className="bg-white">
@@ -19,7 +21,7 @@ export default function ContactPage() {
       <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-16">
         {/* LEFT COLUMN */}
 
-        <div className="space-y-10">
+        <Reveal className="space-y-10">
           {/* Address */}
 
           <div>
@@ -41,11 +43,11 @@ export default function ContactPage() {
 
             <p className="text-gray-700">sansthita2005.kalindi@gmail.com</p>
           </div>
-        </div>
+        </Reveal>
 
         {/* RIGHT COLUMN */}
 
-        <div className="space-y-10">
+        <Reveal delay={100} className="space-y-10">
           {/* General Contact */}
 
           <div>
@@ -74,17 +76,7 @@ export default function ContactPage() {
               <li>+91 90511 71996</li>
             </ul>
           </div>
-
-          {/* Technical Support */}
-
-          <div>
-            <h2 className="text-2xl font-semibold mb-4 text-black">
-              Technical Support
-            </h2>
-
-            <p className="text-gray-700">+91 78748 19964</p>
-          </div>
-        </div>
+        </Reveal>
       </section>
     </main>
   );

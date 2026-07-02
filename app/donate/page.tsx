@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SectionTitle from "@/components/SectionTitle";
+import Reveal from "@/components/Reveal";
 
 export default function DonatePage() {
   /*
@@ -32,17 +33,28 @@ export default function DonatePage() {
           {/* Donation Intro */}
 
           <p className="text-gray-700 text-center max-w-3xl mx-auto mt-8 leading-relaxed">
-            At Sansthita [Registration No. S/1L/31619], we believe small
-            contributions can create big change. Your donation helps us fight
-            violence against women, provide assistance to survivors and promote
-            awareness. It also supports underprivileged communities through
-            education, healthcare and social development initiatives.
+            At Sansthita [Registration No. S/1L/31619, NGO Darpan ID:
+            WB/2026/1120693], we believe small contributions can create big
+            change. Your donation helps us fight violence against women,
+            provide assistance to survivors and promote awareness. It also
+            supports underprivileged communities through education, healthcare
+            and social development initiatives.
           </p>
 
           <p className="text-gray-700 text-center max-w-3xl mx-auto mt-4 leading-relaxed">
             We ensure transparency and responsible use of every donation
             received. Be the reason someone finds hope again.
           </p>
+
+          {/* NGO Darpan Badge */}
+          <div className="mt-8 flex justify-center">
+            <Image
+              src="/images/badges/darpan-logo.svg"
+              alt="NGO Darpan Registered"
+              width={140}
+              height={51}
+            />
+          </div>
 
           {/* ================= SUGGESTED DONATIONS ================= */}
 
@@ -87,7 +99,7 @@ export default function DonatePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
             {/* QR CODE */}
 
-            <div className="bg-gray-50 rounded-lg p-8 shadow-sm text-center">
+            <Reveal className="bg-gray-50 rounded-lg p-8 shadow-sm text-center">
               <h3 className="text-xl font-semibold text-gray-900 mb-6">
                 Scan to Donate
               </h3>
@@ -105,11 +117,11 @@ export default function DonatePage() {
               <p className="text-gray-600 text-sm mt-4 bg-blue-50 border border-blue-100">
                 Scan this QR code using any UPI app to support Sansthita.
               </p>
-            </div>
+            </Reveal>
 
             {/* BANK TRANSFER */}
 
-            <div className="bg-gray-50 rounded-lg p-8 shadow-sm">
+            <Reveal delay={100} className="bg-gray-50 rounded-lg p-8 shadow-sm">
               <h3 className="text-xl font-semibold text-gray-900 mb-6">
                 Bank Transfer
               </h3>
@@ -142,7 +154,7 @@ export default function DonatePage() {
                   </a>
                 </p>
               </div>
-            </div>
+            </Reveal>
           </div>
 
           {/* Transparency */}

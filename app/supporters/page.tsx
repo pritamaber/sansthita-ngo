@@ -1,49 +1,9 @@
 import Image from "next/image";
 import SectionTitle from "@/components/SectionTitle";
+import Reveal from "@/components/Reveal";
+import { donors } from "@/data/supporters";
 
 export default function SupportersPage() {
-  const donors = [
-    {
-      name: "Dr Arpan Kumar Basak and  Dr Sayantani Basak",
-      image: "/images/all/Arpan Sayanti.jpeg",
-    },
-    {
-      name: "Mr. Krishnendu & Mrs. Rupa Gupta",
-      image: "/images/all/Krishnendu Rupa.jpeg",
-    },
-    { name: "Mr. Subhash Basu", image: "/images/all/Subhash.jpeg" },
-    { name: "Mr. Gautam Saha", image: "/images/all/Gautam.jpeg" },
-    { name: "Ms. Banani Mukherjee", image: "/images/all/Banani.jpeg" },
-    { name: "Mr. Arjan Mukherjee", image: "/images/all/Arjan.jpeg" },
-    { name: "Ms. Shampa Mukherjee", image: "/images/all/Shampa.jpeg" },
-    {
-      name: "Mr. Prasenjeet & Mrs. Saumi Ray",
-      image: "/images/all/Prasenjeet.jpeg",
-    },
-    {
-      name: "Mr. Bidyut & Mrs. Pamira Mandal",
-      image: "/images/all/Bidyut.jpeg",
-    },
-    {
-      name: "A group of Young Legal minds from Howrah",
-      image: "/images/all/Legal.jpeg",
-    },
-    { name: "Ms Chitra Ray", image: "/images/all/Chitra.jpeg" },
-
-    {
-      name: "Mr. Swapan Kumar Mukherjee & Mrs. Geeta Mukherjee",
-      image: "/images/all/geeta_swapan_mukherjee.jpeg",
-    },
-    {
-      name: "Mrs. Satarupa Bhattacherjee & Mr. Ayan Bhattacherjee",
-      image: "/images/all/satarup_ayan_bhattacharjee.jpeg",
-    },
-    {
-      name: "Mrs. Keya Basak",
-      image: "/images/all/keya-basak.jpeg",
-    },
-  ];
-
   return (
     <main className="bg-white">
       {/* ================= PAGE HEADER ================= */}
@@ -58,7 +18,7 @@ export default function SupportersPage() {
       </section>
       {/* ================= SPECIAL MENTION ================= */}
 
-      <div className="mt-12 bg-blue-50 border border-blue-200 rounded-xl p-6 md:p-8 text-center max-w-4xl mx-auto shadow-sm">
+      <Reveal className="mt-12 bg-blue-50 border border-blue-200 rounded-xl p-6 md:p-8 text-center max-w-4xl mx-auto shadow-sm">
         <h3 className="text-2xl font-semibold text-blue-900 mb-4">
           Special Gratitude
         </h3>
@@ -82,7 +42,7 @@ export default function SupportersPage() {
           support. We remain deeply grateful for his kindness and the
           inspiration he continues to share.
         </p>
-      </div>
+      </Reveal>
 
       {/* ================= SUPPORTERS CONTENT ================= */}
 
@@ -120,9 +80,10 @@ export default function SupportersPage() {
           {/* Donor Images */}
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16">
-            {donors.map((donor) => (
-              <div
+            {donors.map((donor, index) => (
+              <Reveal
                 key={donor.name}
+                delay={(index % 3) * 100}
                 className="text-center bg-gray-50 rounded-lg p-4 shadow-sm"
               >
                 <div className="relative w-full h-72 md:h-80 mb-4 bg-white rounded-md flex items-center justify-center">
@@ -137,7 +98,7 @@ export default function SupportersPage() {
                 <p className="text-sm font-medium text-gray-800">
                   {donor.name}
                 </p>
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>

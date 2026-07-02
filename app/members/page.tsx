@@ -1,12 +1,8 @@
-"use client";
-
 import Image from "next/image";
+import Reveal from "@/components/Reveal";
+import { members, agmImages } from "@/data/members";
 
 export default function MembersPage() {
-  const members = ["members1.jpeg", "members2.jpeg", "members3.jpeg"];
-
-  const agmImages = ["agm1.jpeg", "agm2.jpeg"];
-
   return (
     <main className="bg-white">
       {/* ================= PAGE HEADER ================= */}
@@ -30,8 +26,9 @@ export default function MembersPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {members.map((img, i) => (
-              <div
+              <Reveal
                 key={i}
+                delay={i * 100}
                 className="relative w-full h-64 md:h-72 bg-gray-100 rounded-lg overflow-hidden shadow-sm"
               >
                 <Image
@@ -40,7 +37,7 @@ export default function MembersPage() {
                   fill
                   className="object-cover"
                 />
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>
@@ -62,8 +59,9 @@ export default function MembersPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {agmImages.map((img, i) => (
-              <div
+              <Reveal
                 key={i}
+                delay={i * 100}
                 className="relative w-full h-64 md:h-80 bg-white rounded-lg overflow-hidden shadow-sm"
               >
                 <Image
@@ -72,7 +70,7 @@ export default function MembersPage() {
                   fill
                   className="object-cover"
                 />
-              </div>
+              </Reveal>
             ))}
           </div>
         </div>

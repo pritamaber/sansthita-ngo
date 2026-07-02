@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   /*
     Footer component for the website.
@@ -22,6 +24,20 @@ export default function Footer() {
           <p className="mt-4 text-sm">
             <strong>Registration No:</strong> S/1L/31619
           </p>
+
+          <p className="mt-1 text-sm">
+            <strong>NGO Darpan ID:</strong> WB/2026/1120693
+          </p>
+
+          {/* NGO Darpan Badge */}
+          <div className="mt-4 bg-white rounded-md p-2 w-fit">
+            <Image
+              src="/images/badges/darpan-logo.svg"
+              alt="NGO Darpan"
+              width={126}
+              height={46}
+            />
+          </div>
 
           {/* Social Icons */}
 
@@ -168,43 +184,7 @@ export default function Footer() {
         <br />
         A voice for the voiceless
         <br />
-        Registration No. S/1L/31619
-      </div>
-      {/* ================= DEVELOPER CONTACT ================= */}
-
-      {/* ================= DEVELOPER CONTACT ================= */}
-
-      <div className="border-t border-white/10 text-center text-sm text-gray-400 py-6">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-5">
-          <span className="text-gray-500">
-            Designed and developed by Pritam Das
-          </span>
-
-          <a
-            href="https://rebadigitalsolutions.com"
-            className="text-blue-400 hover:text-blue-300 transition"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            rebadigitalsolutions.com
-          </a>
-
-          <a
-            href="mailto:pritam.aber@gmail.com?subject=Website%20Development%20Inquiry&body=Hello%20Pritam,%20I%20visited%20rebadigitalsolutions.com%20and%20would%20like%20to%20discuss%20a%20website%20project."
-            className="text-blue-400 hover:text-blue-300 transition"
-          >
-            rebadigitalsolutions@gmail.com
-          </a>
-
-          <a
-            href="https://wa.me/916291616198?text=Hello%20Pritam,%20I%20visited%20rebadigitalsolutions.com%20and%20would%20like%20to%20discuss%20a%20website%20project."
-            className="text-green-400 hover:text-green-300 transition"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            WhatsApp
-          </a>
-        </div>
+        Registration No. S/1L/31619 | NGO Darpan ID: WB/2026/1120693
       </div>
     </footer>
   );
